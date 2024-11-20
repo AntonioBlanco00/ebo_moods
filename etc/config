@@ -1,0 +1,21 @@
+# Endpoints for implements interfaces
+EboMoods.Endpoints=tcp -p 11516
+
+
+# Proxies for required interfaces
+DifferentialRobotProxy = differentialrobot:tcp -h 192.168.3.46 -p 10004
+EmergencyStopProxy = emergencystop:tcp -h 192.168.3.46 -p 12143
+EmotionalMotorProxy = emotionalmotor:tcp -h 192.168.3.46 -p 10945
+LEDArrayProxy = ledarray:tcp -h 192.168.3.46 -p 10991
+
+
+
+
+
+Ice.Warn.Connections=0
+Ice.Trace.Network=0
+Ice.Trace.Protocol=0
+Ice.MessageSizeMax=20004800
+
+
+
